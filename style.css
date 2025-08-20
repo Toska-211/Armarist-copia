@@ -80,6 +80,7 @@ nav ul {
   color: var(--txt-white);
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
   /* === MENU MOBILE HAMBURGER === */
   #hamburger {
     display: none;
