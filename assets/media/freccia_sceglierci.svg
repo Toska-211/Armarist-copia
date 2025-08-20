@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width=".8cm" height=".4cm" viewBox="0 0 22.2 12.6">
+  <defs>
+    <style>
+      .c {
+        fill: none;
+        stroke: #874b53;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <path id="b" data-name="Icon feather-chevron-down" class="c" d="M2.1,2.1l9,9L20.1,2.1"/>
+</svg>
