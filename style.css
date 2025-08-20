@@ -820,7 +820,8 @@ nav ul {
   }
 
 /* CENSURA INFORMAZIONI PER PRIVACY */
-.censura {
+.censura,
+#censura {
   filter: blur(20px) !important;
   pointer-events: none; /* Prevents copy */
   user-select: none;
