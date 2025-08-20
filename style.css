@@ -820,11 +820,7 @@ nav ul {
   }
 }
 /* CENSURA INFORMAZIONI PER PRIVACY */
-.ristorantiTesto h3,
-.ristorantiTesto p,
-#numero,
-.indirizzo,
-#via {
+.censura {
   filter: blur(20px) !important;
   pointer-events: none; /* Prevents copy */
   user-select: none;
