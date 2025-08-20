@@ -818,7 +818,7 @@ nav ul {
   #social a {
     font-size: 35px;
   }
-}
+
 /* CENSURA INFORMAZIONI PER PRIVACY */
 .censura {
   filter: blur(20px) !important;
