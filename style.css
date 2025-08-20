@@ -819,3 +819,13 @@ nav ul {
     font-size: 35px;
   }
 }
+/* CENSURA INFORMAZIONI PER PRIVACY */
+.ristorantiTesto h2,
+.ristorantiTesto h3,
+#numero,
+.indirizzo,
+#via {
+  filter: blur(8px);
+  pointer-events: none; /* Prevents copy */
+  user-select: none;
+}
