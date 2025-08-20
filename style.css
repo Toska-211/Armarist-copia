@@ -48,7 +48,7 @@ header a:hover {
   height: 50px;
   margin-right: 110px;
 }
-@media screen and (width<= 600px) {
+@media screen and (max-width: 600px) {
   .logo {
     padding: 16px 12px;
     justify-content: flex-start;
@@ -80,7 +80,6 @@ nav ul {
   color: var(--txt-white);
   cursor: pointer;
 }
-@media screen and (width<=600px) {
   /* === MENU MOBILE HAMBURGER === */
   #hamburger {
     display: none;
@@ -175,7 +174,7 @@ nav ul {
     align-items: center;
     /* border: 2px solid green; */
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .mediaTesto {
       flex-direction: column-reverse;
     }
@@ -192,7 +191,7 @@ nav ul {
     flex-basis: 50%;
   }
 
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .mediaTesto article,
     .mediaTesto figure {
       flex-basis: 100%; /*impostandolo al 100% mandiamo una box sopra e una sotto */
@@ -213,7 +212,7 @@ nav ul {
     color: var(--txt-dark);
     font-size: 1em;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     p {
       margin: 0;
     }
@@ -227,7 +226,7 @@ nav ul {
     font-size: 3em;
     color: var(--txt-purple);
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .cucinaTesto {
       margin: 20px 0;
     }
@@ -246,7 +245,7 @@ nav ul {
     flex-direction: row-reverse;
     scroll-margin-top: 85px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #chiSiamo {
       flex-direction: column-reverse;
     }
@@ -261,7 +260,7 @@ nav ul {
     padding: 0 100px 0 300px;
   }
 
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #chiSiamoTesto {
       padding: 20px;
     }
@@ -282,7 +281,7 @@ nav ul {
     flex-wrap: wrap;
     padding: 40px 0;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #iconeContainer2 {
       flex-direction: column;
     }
@@ -293,7 +292,7 @@ nav ul {
     padding: 80px 0;
     text-align: center;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .singoloContainer {
       padding: 10px;
     }
@@ -313,7 +312,7 @@ nav ul {
     font-weight: 600;
     color: var(--txt-dark);
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .singoloContainer .caption {
       font-size: 18px;
     }
@@ -339,7 +338,7 @@ nav ul {
     padding-top: 20px;
     text-transform: uppercase;
   }
-  @media screen and (width<=600px) {
+  @media screen and (max-width: 600px) {
     #storiaTesto h2 {
       margin-top: 20px;
       margin-bottom: 30px;
@@ -386,7 +385,7 @@ nav ul {
     padding: 20px 500px;
     width: 100%;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #ristorazione {
       justify-content: flex-start;
     }
@@ -407,7 +406,7 @@ nav ul {
     width: 830px;
     /* padding: 0; */
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #ristorazione summary {
       width: 570px;
       padding: 10px 0;
@@ -429,7 +428,7 @@ nav ul {
     font-weight: 450;
     width: 830px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #ristorazione p {
       padding: 30px 60px;
       width: 550px;
@@ -443,7 +442,7 @@ nav ul {
     flex-grow: 1;
   }
 
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #ristorazione h3 {
       font-size: 27px;
     }
@@ -454,7 +453,7 @@ nav ul {
     text-align: center;
     padding: 70px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .lavoraConNoi {
       padding: 50px 0;
     }
@@ -501,7 +500,7 @@ nav ul {
     margin: auto;
     font-size: 18px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #percheSceglierci {
       margin-bottom: 30px;
       background-color: var(--bg-gray);
@@ -514,7 +513,7 @@ nav ul {
   .menu {
     padding: 20px 500px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .menu {
       padding: 10px 0;
     }
@@ -533,7 +532,7 @@ nav ul {
     /* box-shadow: 0px 0px 18px 7px rgba(0, 0, 0, 0.1); */
     box-shadow: 0px 13px 15px -3px rgba(0, 0, 0, 0.1);
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .menu summary {
       width: 570px;
       margin-left: 10px;
@@ -544,7 +543,7 @@ nav ul {
     font-size: 1.4em;
     text-wrap: nowrap;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .descrizione {
       text-wrap: wrap;
     }
@@ -559,7 +558,7 @@ nav ul {
     font-size: 16px;
     font-weight: 400;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #percheSceglierci .text {
       padding: 30px 50px;
       width: 550px;
@@ -596,7 +595,7 @@ nav ul {
     font-weight: 450;
     margin: 30px 0 30px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .ristorantiTesto h2 {
       margin-top: 20px;
       margin-bottom: 30px;
@@ -637,7 +636,7 @@ nav ul {
     display: flex;
     flex-direction: column;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #via,
     #campi {
       flex-basis: 100%;
@@ -679,7 +678,7 @@ nav ul {
     font-size: 16px;
     margin-bottom: 15px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .check span {
       display: flex;
       justify-content: flex-end;
@@ -699,7 +698,7 @@ nav ul {
   .invio button:hover {
     cursor: pointer;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     .invio {
       display: inline-block;
       align-self: center;
@@ -725,7 +724,7 @@ nav ul {
     gap: 120px;
     padding: 70px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #settimana {
       flex-direction: column;
       gap: 40px;
@@ -737,7 +736,7 @@ nav ul {
     color: var(--bg-yellow);
     font-size: 32px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #settimana h2 {
       text-align: center;
     }
@@ -762,7 +761,7 @@ nav ul {
     padding: 80px 0 20px 100px;
     position: relative;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     footer {
       padding: 40px 20px;
       text-align: center;
@@ -786,7 +785,7 @@ nav ul {
     gap: 20px;
     font-size: 14px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #collegamenti {
       flex-direction: column;
       justify-content: flex-start;
@@ -809,7 +808,7 @@ nav ul {
     top: 80px;
     right: 100px;
   }
-  @media screen and (width<= 600px) {
+  @media screen and (max-width: 600px) {
     #social {
       position: relative;
       top: 150px;
