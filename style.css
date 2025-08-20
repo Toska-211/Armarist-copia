@@ -820,12 +820,18 @@ nav ul {
   }
 }
 /* CENSURA INFORMAZIONI PER PRIVACY */
-.ristorantiTesto h2,
 .ristorantiTesto h3,
+.ristorantiTesto p,
 #numero,
 .indirizzo,
 #via {
-  filter: blur(8px);
+  filter: blur(20px);
   pointer-events: none; /* Prevents copy */
   user-select: none;
+}
+
+.censored-image {
+  filter: blur(20px);  /* Adjust the amount as needed */
+  pointer-events: none; /* Optional: prevents right-click/save */
+  user-select: none;    /* Optional: prevents selection */
 }
