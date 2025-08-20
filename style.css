@@ -825,13 +825,13 @@ nav ul {
 #numero,
 .indirizzo,
 #via {
-  filter: blur(20px);
+  filter: blur(20px) !important;
   pointer-events: none; /* Prevents copy */
   user-select: none;
 }
 
 .censored-image {
-  filter: blur(20px);  /* Adjust the amount as needed */
+  filter: blur(20px) !important;  /* Adjust the amount as needed */
   pointer-events: none; /* Optional: prevents right-click/save */
   user-select: none;    /* Optional: prevents selection */
 }
