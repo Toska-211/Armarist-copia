@@ -561,6 +561,7 @@ nav ul {
   }
   @media screen and (max-width: 600px) {
     #percheSceglierci .text {
+      font-size: 8px;
       padding: 30px 50px;
       max-width: 98vw;
       margin: 15px;
